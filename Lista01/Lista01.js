@@ -1,4 +1,4 @@
-const consumoMedio = 20;
+const consumoMedio = 30;
 const precoLitro = 6.44;
 const tempoDeViagem = 4;
 const velocidade = 100;
