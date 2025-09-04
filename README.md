@@ -1,1 +1,1 @@
-# Projetos_JavaScript01
+# Lista_01_JS
