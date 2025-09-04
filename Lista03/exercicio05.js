@@ -1,3 +1,4 @@
+//teste GitHub
 let valorCarro = 20000;
 let impostoPrecoFab = 0.12;
 let impostoPrecoDist = 0.3; 
