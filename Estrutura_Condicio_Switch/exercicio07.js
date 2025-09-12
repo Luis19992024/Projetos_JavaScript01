@@ -1,4 +1,4 @@
-const pi = 3.14;
+const pi = Math.PI;
 const raio = 5;
 const altura = 10;
 let volume;
