@@ -1,12 +1,19 @@
-const numeroDigitado = 2;
+const numeroDigitado = document.getElementById("idInNumero");
+const resultadoNumero = document.getElementById("idOnResutado");
 
-const resto = numeroDigitado%2;
-
-if(resto==0){
-
-console.log("Número Digitado" +" "+ numeroDigitado+" "+ "é Par");
-
+function calcularNumero(valor) {
+  const resto = valor % 2;
+  if (resto === 0) {
+    return "Par";
+  } else {
+    return "Ímpar";
+  }
 }
-if(resto!=0){
-   console.log("Número Digitado" +" "+ numeroDigitado+" "+ "é Ímpar");
+
+function eventoBtn() {
+  const valorDigitado = Number(numeroDigitado.value);
+
+  const tipo = calcularNumero(valorDigitado);
+  const saida = " Número digitado é: " + tipo;
+  resultadoNumero.innerText = saida;
 }
