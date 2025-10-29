@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCADORA DE FILMES</title>
+</head>
+<body>
+    <h1>LOCADORA  LOCGYM</h1>
+    <form>
+<p >PREÇO DO FILME<input type="number" id="idInPreco" placeholder="PREÇO FILME"> </p>
+<p>DIA DA SEMANA <input type="number" id="idInDiaSemana" placeholder="DIGITE DIA DA SEMANA"></p>
+
+<p>TIPO DO FILME</p>
+<select name="tipoFilme" id="idInTipoFilme">
+
+<option value="lancamento">Lançamento</option>
+<option value="comum">Comum</option>
+<option> </option>
+</select>
+    </form>
+    <input type="button" value="Executar" onclick="executarBtn()">
+    <p id="idOutResultado"></p>
+    <script src="exercicio.js"></script>
+</body>
+</html>
